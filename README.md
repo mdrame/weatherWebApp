@@ -37,13 +37,15 @@ python3 weather.py
 ## Major Contributors 
 
 
-Mo's Channel - https://www.youtube.com/channel/UCBTVuaTf-Ui5qSgvrOnaqig
+Mo's Channel - https://www.youtube.com/channel/UCBTVuaTf-Ui5qSgvrOnaqig  
 
-Mo's Github - https://github.com/mdrame
 
-Jeric's Github - https://github.com/JericHunter
 
-Samir's Github - https://github.com/SamirIngley
+Mo's Github - https://github.com/mdrame				<img src="studentProfuke.jpeg"/>
+
+Jeric's Github - https://github.com/JericHunter			<img src="jerric.png"/>
+
+Samir's Github - https://github.com/SamirIngley			<img src="samir.jpeg"/>
 
 <!-- Markdown link & img dfn's -->
 [python3-image]: https://img.shields.io/badge/-python3-brightgreen
