@@ -34,9 +34,7 @@ python3 weather.py
 
 
 
-## Meta
-
-Distributed under the MIT license.
+## Major Contributors 
 
 
 Mo's Channel - https://www.youtube.com/channel/UCBTVuaTf-Ui5qSgvrOnaqig
@@ -44,6 +42,8 @@ Mo's Channel - https://www.youtube.com/channel/UCBTVuaTf-Ui5qSgvrOnaqig
 Mo's Github - https://github.com/mdrame
 
 Jeric's Github - https://github.com/JericHunter
+
+Samir's Github - https://github.com/SamirIngley
 
 <!-- Markdown link & img dfn's -->
 [python3-image]: https://img.shields.io/badge/-python3-brightgreen
