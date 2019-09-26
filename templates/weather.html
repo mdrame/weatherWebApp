@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+
+{% block body %}
+
+{% for result in weather_result["weather"] %}
+   <p> {{ result["description"] }} </p>
+
+{% endfor %}
+
+  <p> {{ (temp - 273.15) * 9/5 + 32 }} </p>
+
+{% endblock %}
