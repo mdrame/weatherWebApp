@@ -2,10 +2,17 @@
 
 {% block body %}
 
+<!-- looping over API tree to get weather discription  -->
 {% for result in weather_result["weather"] %}
    <p> {{ result["description"] }} </p>
-
 {% endfor %}
+
+<!-- looping over weather icons under  -->
+
+{% for icons in emoji_weather_Icons %}
+   <p> {{ icons }} </p>
+{% endfor %}
+
 
   <p> {{ (temp - 273.15) * 9/5 + 32 }} </p>
 

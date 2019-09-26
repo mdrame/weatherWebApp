@@ -25,21 +25,21 @@ def weather():
     }
 
     cities = {"Paris": "Paris 🗼", "New York": "New York 🗽", "London": "London 🏫"}
-
-    #threeCities {}
-
+    emoji_weather_Icons = ["☀️", "☔️",  "❄️",  "🌶",  "💨"]
+    # weather icon will be use to discribe current weather
     #user input API call
     r = requests.get(WEATHER_URL,params=params)
 
     # code needs error handling
     weather_result = r.json()
 
-    temp = weather_result["main"]["temp"]
+    temp = int(weather_result["main"]["temp"])
 
 
 
 
-    return render_template("weather.html", user_input=user_input,weather_result=weather_result, temp=temp)
+
+    return render_template("weather.html", user_input=user_input,weather_result=weather_result, temp=temp, emoji_weather_Icons=emoji_weather_Icons )
 
 
 

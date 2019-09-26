@@ -5,7 +5,7 @@
 
             <meta charset="utf-8">
             <title> Easy | Weather 🌡 </title>
-            <link rel="stylesheet" href="{{ url_for('static', filename="styles/css/style.css")}}">
+            <link rel="stylesheet" href="{{ url_for('static', filename="styles/style.css")}}">
 
     </head>
 
@@ -16,9 +16,9 @@
             <!-- form at the top -->
             <form action="/weather">
                 City Name: <br>
-                <input type="text" name="q" placeholder="Search City..">
-                <br>
-                <input type="submit" value=" Enter ">
+                <input class="searchbar" type="text" name="q" placeholder="Search City..">
+
+                <input class="submitbutton" type="submit" value=" Enter ">
             </form>
             {% block body %} {% endblock %}
 
